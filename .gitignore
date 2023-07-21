@@ -1,2 +1,5 @@
 a.out
 .cph
+.vscode
+a.out.dSYM/Contents/Info.plist
+*.bin
