@@ -3,3 +3,7 @@ a.out
 .vscode
 a.out.dSYM/Contents/Info.plist
 *.bin
+*.ilk
+*.obj
+*.pdb
+*.exe
