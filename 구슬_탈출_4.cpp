@@ -20,7 +20,7 @@ int main() {
         cby=q.front();q.pop();
         cbx=q.front();q.pop();
         move_cnt=q.front();q.pop();
-        if(move_cnt>=11) continue;
+        //if(move_cnt>=11) continue;
         if(visit[cry][crx][cby][cbx]) continue;
         visit[cry][crx][cby][cbx]=1;
         auto check = [&](int y, int x, int oy, int ox){

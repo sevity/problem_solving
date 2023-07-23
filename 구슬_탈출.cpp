@@ -117,7 +117,7 @@ int main() {
         q.push(cry),q.push(crx), q.push(cby), q.push(cbx), q.push(move_cnt+1);
         
     }
-    if(blue_found_goal==false && red_found_goal==true)printf("%d", move_cnt);
-    else puts("-1");
+    if(blue_found_goal==false && red_found_goal==true)puts("1");
+    else puts("0");
     return 0;
 }
