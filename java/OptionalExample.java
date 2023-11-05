@@ -19,9 +19,11 @@ public class OptionalExample {
         // 1.1 ifPresent와 Java 8에서 도입된 메소드 레퍼런스(method reference)를 사용
         hasValue.ifPresent(System.out::println);// "Hello, World!" 출력
 
-
-        // 2. ifPresent()를 사용하여 값이 있을 때만 작업 실행
+        // 2. ifPresent()를 사용하여 값이 있을 때만 람다 함수로 다음 작업 실행
         noValue.ifPresent(value -> System.out.println(value)); // 아무것도 출력되지 않음
+
+        // 위의 1.1과 2는 모두 값이 있을때만 이후 작업이 진행되어 효율적이다.
+        // 전자는 간결하다는 장점이 있고, 후자는 람다 표현식으로 좀 더 복잡한 로직을 포함할 수 있다는 장점이 있음
 
         // 3. orElse()로 값이 없을 때 대체값 제공
         System.out.println(noValue.orElse("Default Value")); // "Default Value" 출력
