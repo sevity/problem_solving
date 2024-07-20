@@ -1,2 +1,11 @@
 a.out
 .cph
+.vscode
+a.out.dSYM/Contents/Info.plist
+*.bin
+*.ilk
+*.obj
+*.pdb
+*.exe
+.idea
+java/.idea
